@@ -5,6 +5,7 @@ hide:
 This guide provides a concise overview of NASA's Astronomy Picture of the Day (APOD) API, enabling developers to quickly fetch and integrate daily space imagery into apps. It covers setup, a GET request test in Postman, response handling, advanced parameters, and code examples in Python and cURL. 
 
 ![NASA APODs over the years](images/apod-examples.jpg)
+Photo Credits: NASA
 
 ### Prerequisites
 You have Postman installed and understand basic API testing.

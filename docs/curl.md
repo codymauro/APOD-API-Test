@@ -8,7 +8,7 @@ Use cURL for command-line or scripted requests, ideal for quick automation witho
 curl -G "https://api.nasa.gov/planetary/apod" --data-urlencode "api_key=DEMO_KEY"
 ```
 Results will look like the following: 
-![curl bash GET results](images/bash-get-results.png)
+![curl bash GET results](images/bash-results.png)
 
 # GET Random APOD
 ```bash

@@ -16,7 +16,7 @@ Enhance requests with params for flexible in-app integration.
 
 Combine params as needed (e.g., date with thumbs=true to include 'thumbnail_url' for videos if media_type='video'). Note: The 'hd' param is deprecated and ignored; 'hdurl' appears automatically if a high-resolution image is available.
 
-For additional params, review NASA’s include Query Parameters chart. 
+For additional params, see the table below: 
 
 | Parameter | Type | Default | Description |
 | :---- | :---- | :---- | :---- |

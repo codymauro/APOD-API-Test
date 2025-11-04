@@ -3,12 +3,10 @@ hide:
   - toc
 ---
 Enhance requests with params for flexible in-app integration.
-
 ### Randomize Astronomy Photos of the Day: 
 1. Add param key=count, value=1-100 (e.g., count=5 for 5 unique random entries).
 2. URL becomes: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=5.  
 3. Send. Response is a JSON array of entries.
-
 ### Pull APOD from specific date: 
 1. Add param key=date, value=YYYY-MM-DD (e.g., date=[current date]; must be after 1995-06-16; no future dates).  
 2. URL: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=[current date].  

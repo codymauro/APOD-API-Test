@@ -8,11 +8,11 @@ Use Python's requests library to fetch APOD data in scripts or apps, automating 
 
 import requests
 
-*# Basic GET for today's APOD*
+# Basic GET for today's APOD
 
 url = "https://api.nasa.gov/planetary/apod"
 
-params = {"api_key": "DEMO_KEY"}  *# Replace with your key*
+params = {"api_key": "DEMO_KEY"}  # Replace with your key
 
 response = requests.get(url, params=params)
 
@@ -20,7 +20,7 @@ if response.status_code == 200:
 
     data = response.json()
 
-    *# For count>1, data is a list—loop over data (e.g., for item in data: print(item["title"]))*
+    # For count>1, data is a list—loop over data (e.g., for item in data: print(item["title"]))
 
     print(data["title"])
 
@@ -40,7 +40,7 @@ else:
 
     print(f"Error: {response.status_code} - {msg}")
 
-*# Advanced: Random or specific date*
+# Advanced: Random or specific date
 
 params_random = {"api_key": "DEMO_KEY", "count": 5}
 
